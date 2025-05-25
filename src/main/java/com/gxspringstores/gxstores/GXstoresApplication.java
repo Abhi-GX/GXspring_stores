@@ -6,7 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GXstoresApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(GXstoresApplication.class, args);
+
     }
 
 }
