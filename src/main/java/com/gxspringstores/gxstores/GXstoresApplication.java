@@ -12,7 +12,7 @@ public class GXstoresApplication {
           ApplicationContext context=SpringApplication.run(GXstoresApplication.class, args);
           var orderInstance=context.getBean(OrderService.class);
 //          OrderService o=new OrderService(new PhonePayUpi());
-          System.out.println("connected to githu");
+          System.out.println("connected to github");
           orderInstance.placeOrder();
     }
 
